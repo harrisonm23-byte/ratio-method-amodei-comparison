@@ -20,7 +20,7 @@ The essay positions the Ratio Method’s liability and incentive design as compl
 
 ### Conclusion
 
-The two articles share a diagnosis, and arrive at similar conclusions through independent means. This convergence suggests both are tracking structural features of the AI regulatory problem. Amodei’s pre-deployment review determines what enters the market; the Ratio Method’s liability approach determines the framework that governs systems once deployed. The pieces are therefore complementary. At the same time, the Ratio Method’s legacy-doctrine approach reaches its limit at two of Amodei’s named risks—loss of control and recursive self-improvement—highlighting where genuinely novel regulation is still required.
+The two articles share a diagnosis, and arrive at similar conclusions through independent means. This convergence suggests both are tracking structural features of the AI regulatory problem. Amodei’s pre-deployment review determines what enters the market; the Ratio Method’s liability approach determines the framework that governs systems once deployed. The pieces are therefore complementary. At the same time, the Ratio Method’s legacy-doctrine approach reaches its limit at two of Amodei’s named risks—loss of control and recursive self-improvement, highlighting where genuinely novel regulation is still required.
 
 ### Files
 
