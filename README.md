@@ -1,6 +1,6 @@
 # Comparative analysis of Dario Amodei’s *Policy on the AI Exponential* (2026) with *The Ratio Method* (Margolin & Frazier, 52 St. Mary’s L.J. 679, 2021).
 
-[Download PDF](./A_Frontier-Lab_CEO_Arrives_at_the_Ratio_Method.pdf)
+[Download PDF](./Policy on AI Exponential (2026) vs. Ratio Method (2021).pdf)
 
 Comparative analysis of Dario Amodei’s *Policy on the AI Exponential* (June 2026) with *The Ratio Method: Addressing Complex Tort Liability in the Fourth Industrial Revolution* (Margolin & Frazier, 52 St. Mary’s L.J. 679, 2021).
 
@@ -24,13 +24,9 @@ The two articles share a diagnosis, and arrive at similar conclusions through in
 
 ### Files
 
-- [PDF](./A_Frontier-Lab_CEO_Arrives_at_the_Ratio_Method.pdf)
+- [PDF](./Policy on AI Exponential (2026) vs. Ratio Method (2021).pdf)
 
 ### Related Work
 
 - Harrison C. Margolin & Grant H. Frazier, *The Ratio Method: Addressing Complex Tort Liability in the Fourth Industrial Revolution*, 52 St. Mary’s L.J. 679 (2021).  
   [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3689253)
-
-### Citation
-
-Margolin, Harrison, *A Frontier-Lab CEO Arrives at the Ratio Method* (June 2026).
