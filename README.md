@@ -24,7 +24,7 @@ The two articles share a diagnosis, and arrive at similar conclusions through in
 
 ### Files
 
-- [PDF](./Policy on AI Exponential (2026) vs. Ratio Method (2021).pdf)
+- [PDF](./Policy%20on%20AI%20Exponential%20(2026)%20vs.%20Ratio%20Method%20(2021).pdf)
 
 ### Related Work
 
