@@ -1,6 +1,6 @@
 # Comparative analysis of Dario Amodei’s *Policy on the AI Exponential* (2026) with *The Ratio Method* (Margolin & Frazier, 52 St. Mary’s L.J. 679, 2021).
 
-[Download PDF](./Policy%20on%20AI%20Exponential%20(2026)%20vs.%20Ratio%20Method%20(2021).pdf)
+**[Read online](https://harrisonm23-byte.github.io/ratio-method-amodei-comparison/)** · [Download PDF](./Policy%20on%20AI%20Exponential%20(2026)%20vs.%20Ratio%20Method%20(2021).pdf)
 
 Comparative analysis of Dario Amodei’s *Policy on the AI Exponential* (June 2026) with *The Ratio Method: Addressing Complex Tort Liability in the Fourth Industrial Revolution* (Margolin & Frazier, 52 St. Mary’s L.J. 679, 2021).
 
@@ -24,6 +24,7 @@ The two articles share a diagnosis, and arrive at similar conclusions through in
 
 ### Files
 
+- [HTML (live page)](https://harrisonm23-byte.github.io/ratio-method-amodei-comparison/)
 - [PDF](./Policy%20on%20AI%20Exponential%20(2026)%20vs.%20Ratio%20Method%20(2021).pdf)
 
 ### Related Work
