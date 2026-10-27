@@ -35,7 +35,8 @@ table.cmp td:nth-child(2),table.cmp td:nth-child(3){width:31%}
 .src{font-size:16px;line-height:1.5}
 .src p{margin:0 0 10px}
 footer{font-size:14px;color:var(--ink);border-top:1px solid var(--rule);margin-top:72px;padding-top:16px}
-.pb{display:flex;align-items:center;gap:12px;margin:32px 0;font-family:var(--serif);font-size:12.5px;font-weight:400;font-variant:small-caps;letter-spacing:.08em;color:#888}.pb::before,.pb::after{content:"";flex:1;border-top:1px dashed var(--rule)}table.cmp tr.pbr td{padding:2px 0;border-bottom:none;width:auto}tr.pbr .pb{margin:4px 0}@media print{.pb,tr.pbr{display:none !important}}
+
+@media screen{hr.sec{border:0;border-top:1px solid var(--rule);margin:40px 0 0;height:0}hr.sec+h2{margin-top:28px}}@media print{hr.sec{display:none}}
 </style>
 </head>
 <body>
@@ -49,6 +50,7 @@ footer{font-size:14px;color:var(--ink);border-top:1px solid var(--rule);margin-t
 <p>Several of these positions were shared, in method or reference, by <i>The Ratio Method</i>, published in the St. Mary's Law Journal in 2021, before the release of general-purpose frontier models. The Ratio Method is a procedure for selecting regulatory frameworks for emerging technologies by analogy to established industries.</p>
 <p>The purpose of this comparison is to identify what the convergence reveals about the structure of the AI-governance problem, and how each overlap may indicate credibility or point to where more work is needed. The two works appear to share no common source, and the value of the comparison stems from that independence.</p>
 
+<hr class="sec" aria-hidden="true">
 <h2>Table of Comparison</h2>
 <p class="note"><b>Ex ante</b> is a Latin phrase meaning "before the event", commonly used in economics, finance, and law to describe analyses made in advance.</p>
 <div class="wide"><div class="scroll">
@@ -72,7 +74,6 @@ footer{font-size:14px;color:var(--ink);border-top:1px solid var(--rule);margin-t
 <td>AI cyber risk is now demonstrated (Mythos Preview) and of strategic consequence, so frontier models need mandatory third-party capability testing, model-weight security standards, red-teaming/pen-testing, and prompt incident reporting.</td>
 <td>Self-learning, scalable AI malware means breaches resemble oil spills, local first but compounds nationally. Apply Oil Pollution Act, proof of financial responsibility, scale liability to network size, strict joint-several clean-up liability among breached actors, data insurance.</td>
 <td>Strong convergence on cyber as a lead risk: Amodei gates model deployment; RM supplies OPA-style liability to shape incentives after deployment.</td></tr>
-<tr class="pbr" aria-hidden="true"><td colspan="4"><div class="pb"><span>Page 2</span></div></td></tr>
 <tr><td>Biological Weapons &amp; Biosecurity</td>
 <td>Bioweapons are a mandated test area; bio risk likely follows cyber and is harder to manage because attackers hold the advantage, so testing models for bio-uplift and reforming biodefense are priorities.</td>
 <td>CRISPR can make pathogens more dangerous, yet BSL safety standards are only advisory, with no agency enforcing them (or even counting the labs!). An engineered pathogen could escape with no liability regime; suggests international scheme with strict, capped liability, and preparedness-based comparative negligence.</td>
@@ -85,7 +86,6 @@ footer{font-size:14px;color:var(--ink);border-top:1px solid var(--rule);margin-t
 <td>There may come a point where the most powerful AI resembles weapons-grade nuclear material, a threat to humanity, not just public safety, warranting more aggressive measures; but those shouldn't be designed prematurely.</td>
 <td>For catastrophic risk, nuclear is the closest analogue: absolute liability, mandatory coverage, monetary caps. Since no one can fund damages at this scale, liability must be capped/shared via a preparedness model.</td>
 <td>Both pick nuclear as the extreme-tier reference. RM designs a regime. Amodei signposts it.</td></tr>
-<tr class="pbr" aria-hidden="true"><td colspan="4"><div class="pb"><span>Page 3</span></div></td></tr>
 <tr><td>Autonomous / Self-evolving AI</td>
 <td>Automated R&amp;D / recursive self-improvement is a distinct, fourth risk that can accelerate the other three and supercharge growth, hence its own test area.</td>
 <td>Observation that AI malware can improve as it ingests more data implies compounding capability. Argument stays within adaptive learning, not model self-upgrading.</td>
@@ -102,7 +102,6 @@ footer{font-size:14px;color:var(--ink);border-top:1px solid var(--rule);margin-t
 <td>The producers of disruption should pay, AI firms absorb energy cost increases, labor displacement support or UBI financed through taxes on AI companies or capital gains.</td>
 <td>Firms internalize the risk of entering industry, steering toward safer, better-capitalized suppliers. Removal-cost liability, profit-funded worker aid, size-scaled caps, point to producer borne-costs of entry.</td>
 <td>Strong agreement on "producer pays." Amodei applies via tax and pledges, RM via tort/economic theory.</td></tr>
-<tr class="pbr" aria-hidden="true"><td colspan="4"><div class="pb"><span>Page 4</span></div></td></tr>
 <tr><td>Quantitative Methods</td>
 <td>Avoids fixed criteria beyond compute-thresholds; argues rigidity will waste compliance effort on low-value items, while missing important risks, so adaptable standards are preferable.</td>
 <td>Central claim is that liability can be selected algorithmically. Compute Frequency and Average Damages, layer in Social Value and Litigation Costs, then match the resulting profile to a legacy industry.</td>
@@ -119,7 +118,6 @@ footer{font-size:14px;color:var(--ink);border-top:1px solid var(--rule);margin-t
 <td>AI could enable a seizure of power (autonomous drone armies obeying unlawful orders; mass-surveillance), so democracies must proactively fortify liberty: a domestic ban for autonomous weapons, closing the data-broker loophole, a public right to AI counsel against the government, and checks on both state and corporate power.</td>
 <td>Notes that IoT enables population-scale surveillance and "extreme political control," and situates data privacy in the Griswold line&mdash;but raises the concern without developing a theory of state power or proposing remedies.</td>
 <td>Largely Amodei-only as a structural theme; RM flags the surveillance risk in passing and stops there.</td></tr>
-<tr class="pbr" aria-hidden="true"><td colspan="4"><div class="pb"><span>Page 5</span></div></td></tr>
 <tr><td>Geopolitical Coalition</td>
 <td>AI resets geopolitical board, so democracies should form a values-based coalition that share chips and manufacturing, coordinate risk rules, pools defense, making membership attractive enough to eventually draw in the world.</td>
 <td>Confines international treatment to liability treaties (Biological Weapons, nuclear conventions, the Outer Space Treaty).</td>
@@ -133,13 +131,13 @@ footer{font-size:14px;color:var(--ink);border-top:1px solid var(--rule);margin-t
 </div></div>
 <p class="capt">RM = The Ratio Method. Scroll sideways on narrow screens.</p>
 
-<div class="pb" aria-hidden="true"><span>Page 6</span></div>
+<hr class="sec" aria-hidden="true">
 <h2>The Ratio Method in brief</h2>
 <p>The Ratio Method proposes that regulation can be solved by analogy. It characterizes a technology's harm profile using two primary ratios, <b>Frequency</b> (the share of the population affected by a harmful event) and <b>Average Damages</b> (the per-person cost of that harm relative to GDP per capita), supplemented by measures of the technology's <b>Social Value</b>, the <b>Type of Harm</b>, and the <b>Litigation Costs</b> of proving liability.</p>
 <p>It then locates an existing, well-regulated <b>legacy industry</b> whose <b>benefit-cost</b> profile is comparable, and argues that the <b>standards of care</b>, <b>causation</b>, and <b>liability</b> governing that <b>legacy industry</b> are well suited to the emerging one.</p>
 <p>The method is calibrated against historical outcomes in complex litigation, such as the Anthem and Target data-breach settlements, the Deepwater Horizon oil spill, the tobacco Master Settlement, and the workers' compensation system, among others, and is applied in the article to Artificial Intelligence, the Internet of Things (IoT), and CRISPR-Cas9 gene editing. The objective is stated in forward-looking terms: to help regulators identify, in advance, the liability regime whose incentives will produce "safe and steady industrial growth."</p>
 
-<div class="pb" aria-hidden="true"><span>Page 7</span></div>
+<hr class="sec" aria-hidden="true">
 <h2>Amodei's Controlled Review vs. Ratio Method's Law-&amp;-Econ</h2>
 <p>Both documents begin from the same premise: technology moves faster than policy can.</p>
 <p>Amodei argues policy and legislation move very slowly while AI advances at a lightning pace. Margolin and Frazier frame it as the "pacing problem" and build their entire method around situations "in which technological change outpaces legislative capacity." Both grapple explicitly with the dilemma of regulating under uncertainty.</p>
@@ -155,21 +153,24 @@ footer{font-size:14px;color:var(--ink);border-top:1px solid var(--rule);margin-t
 <p>The distinction between the two works is the lever: administrative permission to deploy, versus liability designed to shape who enters the industry and how safely they build.</p>
 <p>You can read the Ratio Method as a supplement: Amodei's analogies are stated at a high level, while Ratio Method offers a procedure for testing which analogy fits a given harm profile. In that sense the Ratio Method can be seen as a way to operationalize the moves Amodei makes by intuition.</p>
 
-<div class="pb" aria-hidden="true"><span>Page 8</span></div>
+<hr class="sec" aria-hidden="true">
 <h2>Federal Aviation Act</h2>
 <p>Amodei's instinct is that AI should be regulated "like cars, airplanes, or drugs," with the FAA as his template. The Ratio Method reached for the same reference industries: aviation/FAA, pharmaceuticals/FDA, automobiles. But it uses the aviation framework for AI-driven IoT because, like aviation, IoT can control physical systems and threaten human safety; the drug/device and vaccine-injury regimes for CRISPR; and, notably, the oil-spill regime (OPA) for AI cybersecurity.</p>
 <p>Amodei would put frontier AI broadly under an aviation-style pre-clearance model, which resembles the Ratio Method IoT framework. The Ratio Method viewed data breaches in AI-era as landing on oil-spill liability: certificates of financial responsibility, liability scaled to the size of the data "carrier," strict-but-capped damages.</p>
 
+<hr class="sec" aria-hidden="true">
 <h2>Labor Displacement</h2>
 <p>Amodei proposes wage insurance, retention incentives, and potentially UBI financed by taxes on AI companies, while stressing that enduring job displacement is undesirable. The Ratio Method proposes a workers'-compensation-style no-fault scheme in which automating firms pay a share of their gains into retraining and support for displaced workers. Both authors land on a direct policy overlap: industry should help pre-fund the externalities it creates. Amodei's pledge to absorb datacenter-driven electricity price increases is a similar move in miniature.</p>
 
+<hr class="sec" aria-hidden="true">
 <h2>The Extreme Tail &ndash; Nuclear Liability</h2>
 <p>At the catastrophic end, both documents converge again. Amodei says future AI may eventually look less like airplanes and more like weaponizable nuclear materials, a threat to humanity rather than just to public safety. Ratio Method, addressing a CRISPR-engineered synthetic pandemic, explicitly turns to nuclear plant liability (the Joint Protocol: strict liability, mandatory financial coverage, capped damages), because viral and radiological harms share that catastrophic, spreading character. They both treat nuclear governance as the reference point for "too dangerous for ordinary tort/regulatory tools."</p>
 
+<hr class="sec" aria-hidden="true">
 <h2>Where they don't overlap</h2>
 <p>Amodei has substantial material with no analog in Ratio Method: a full section on civil liberties and state power, autonomous weapons, surveillance, the data-broker loophole, and an entire geopolitical strategy built around a democratic coalition, chip export controls, and AI as the new basis of national power. Ratio Method gestures at surveillance (IoT, the ACLU) and international bioweapons law, but they don't develop a theory of state power. Meanwhile, Ratio Method offers something Amodei lacks: a quantified methodology. Amodei states analogies at a high level, while Ratio Method offers a procedure with algorithmic inputs (Frequency, Average Damages, etc.) and worked examples (Anthem, Target, Deepwater Horizon). The authors even note, half in jest, that their automotive-industry calibration approximates to the Golden Ratio.</p>
 
-<div class="pb" aria-hidden="true"><span>Page 9</span></div>
+<hr class="sec" aria-hidden="true">
 <h2>Why the comparison matters</h2>
 <p>The two documents share a diagnosis and come to similar conclusions. The reason the comparison merits attention is what the pattern reveals about the structure of the problem.</p>
 <p>First, the convergence is independent. A thesis reasoning from possibility in 2021 and an AI-lab executive reasoning from observed model capabilities in 2026 arrive at several of the same reference points &ndash; aviation, pharmaceuticals, automotive, nuclear &ndash; and same principles of harm-tiered classification, producer cost internalization, and a reserved extreme-risk tail. Independent convergence of this kind is evidence that the authors are tracking structural features of the AI regulatory problem, and raises the credibility of the overlap since they have no common source.</p>
@@ -178,6 +179,7 @@ footer{font-size:14px;color:var(--ink);border-top:1px solid var(--rule);margin-t
 <p>The comparison also highlights a consequential question: whether ex ante rules in AI regulation can be quantitatively determined, as Ratio Method suggests, or must remain adaptable, as Amodei proposes. This framing replaces a difference in approach with a specific, unresolved question: whether rules that precede harm can be structured or must be left deliberately open.</p>
 <p>Finally, the Ratio Method's legacy-doctrine thesis transfers further than AI-exceptionalism may predict, but reaches its limit at two of Amodei's named risks, "loss of control" and recursive self-improvement. No prior industry has produced an artifact capable of pursuing its own objectives or improving its own capabilities. The comparison, therefore, establishes how much of AI governance can be adapted from existing regulation, and the specific areas it cannot, which points to where genuinely novel regulation is actually required.</p>
 
+<hr class="sec" aria-hidden="true">
 <h2>Sources</h2>
 <div class="src">
 <p>Dario Amodei, <i>Policy on the AI Exponential</i> (June 2026), <a href="https://darioamodei.com/post/policy-on-the-ai-exponential">darioamodei.com/post/policy-on-the-ai-exponential</a></p>
