@@ -1,4 +1,4 @@
-# Comparative analysis of Dario Amodei’s *Policy on the AI Exponential* (2026) with *The Ratio Method* (Margolin & Frazier, 52 St. Mary’s L.J. 679, 2021).
+# An Analytical Comparison of the Ratio Method and Amodei’s *Policy on the AI Exponential*: Convergence, Complementarity, and the Limits of Regulatory Analogy
 
 **[Read online](https://harrisonm23-byte.github.io/ratio-method-amodei-comparison/)** · [Download PDF](./Policy%20on%20AI%20Exponential%20(2026)%20vs.%20Ratio%20Method%20(2021).pdf)
 
