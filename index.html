@@ -46,6 +46,13 @@ table.cmp td:nth-child(2),table.cmp td:nth-child(3){width:31%}
 .src p{margin:0 0 10px}
 footer{font-size:14px;color:var(--ink);border-top:1px solid var(--rule);margin-top:72px;padding-top:16px}
 
+details.tbl{margin:0 0 28px}
+details.tbl>summary{cursor:pointer;font-size:17px;font-style:italic;padding:8px 0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);list-style-position:inside}
+details.tbl[open]>summary{margin-bottom:18px}
+details.tbl>summary:hover{text-decoration:underline}
+details.tbl>summary .hide,details.tbl[open]>summary .show{display:none}
+details.tbl[open]>summary .hide{display:inline}
+@media print{details.tbl>summary{display:none}}
 @media screen{p.dinkus{text-align:center;margin:40px 0 0;font-size:22px;line-height:1;color:#555}p.dinkus+h2{margin-top:22px}}@media print{p.dinkus{display:none}}
 </style>
 </head>
@@ -63,6 +70,8 @@ footer{font-size:14px;color:var(--ink);border-top:1px solid var(--rule);margin-t
 
 <p class="dinkus" aria-hidden="true">*&emsp;*&emsp;*</p>
 <h2>Table of Comparison</h2>
+<details class="tbl">
+<summary><span class="show">Show the comparison table</span><span class="hide">Hide the comparison table</span></summary>
 <p class="note"><b>Ex ante</b> is a Latin phrase meaning "before the event", commonly used in economics, finance, and law to describe analyses made in advance.</p>
 <div class="wide"><div class="scroll">
 <table class="cmp">
@@ -141,6 +150,7 @@ footer{font-size:14px;color:var(--ink);border-top:1px solid var(--rule);margin-t
 </table>
 </div></div>
 <p class="capt">RM = The Ratio Method. Scroll sideways on narrow screens.</p>
+</details>
 
 <p class="dinkus" aria-hidden="true">*&emsp;*&emsp;*</p>
 <h2>The Ratio Method in brief</h2>
@@ -195,5 +205,11 @@ footer{font-size:14px;color:var(--ink);border-top:1px solid var(--rule);margin-t
 
 <footer>&copy; 2026 Harrison C. Margolin &middot; See also <a href="https://harrisonm23-byte.github.io/The_Ratio_Method/">The Ratio Method report: Precedents</a></footer>
 </main>
+<script>
+(function(){var was=[];
+addEventListener('beforeprint',function(){was=[];document.querySelectorAll('details').forEach(function(d){was.push(d.open);d.open=true})});
+addEventListener('afterprint',function(){document.querySelectorAll('details').forEach(function(d,i){d.open=!!was[i]})});
+})();
+</script>
 </body>
 </html>
